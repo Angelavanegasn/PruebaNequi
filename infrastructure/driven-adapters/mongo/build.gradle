@@ -1,0 +1,16 @@
+plugins {
+    id 'io.spring.dependency-management' version '1.1.7'
+}
+
+dependencyManagement {
+    imports {
+        mavenBom 'org.springframework.boot:spring-boot-dependencies:3.5.11'
+    }
+}
+
+dependencies {
+    implementation project(':domain:model')
+    implementation project(':domain:usecase')
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
+    implementation 'org.springframework:spring-context'
+}
