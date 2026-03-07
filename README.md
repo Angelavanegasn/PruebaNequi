@@ -15,7 +15,7 @@ API reactiva para gestionar franquicias, sucursales y productos usando Spring We
 
 ```text
 applications/
-  app-service/                               # Módulo bootable (main, resources, tests)
+  app-service/                               # Módulo  (main, resources, tests)
 
 domain/
   model/                                     # Entidades del dominio
